@@ -2,7 +2,7 @@
 
 This is the code repository to recreate the analysis from our paper Webonization of Wikipedia: Characterization Wikipedia Linking on the Web''.
 
-The full dataset is available on Zenodo [here](https://zenodo.org/).
+The full dataset will be made available on Zenodo with acceptance [here](https://zenodo.org/).
 
 ### Dataset cleaning
 This set of files has some starter code to work with Web2Wiki and process it. In particular, we first extract Wikilinks (extract_wikilinks) from the full dump, then merge them (```merge_wikilinks.py```) and clean them (```clean_links.py```). We then extract language specific sharing through the ```language_shares.py``` file.
